@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static%}
+        {% load bootstrap5 %}
+        {% bootstrap_css %}
+        <link rel="stylesheet" href="{% static 'css/custom-style.css' %}">
+        <title>{% block title %}{% endblock %}</title>
+        {% block header %}{% endblock %}
+    </head>
+    <body>
+        {% include 'menu.html' %}
+        <div class="content">
+        {% block page_content %}{% endblock %}
+        </div>
+        {% bootstrap_javascript %}
+        {% block scripts %}{% endblock %}
+    </body>
+</html>

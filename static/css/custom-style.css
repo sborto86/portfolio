@@ -1,0 +1,9 @@
+.content img {
+    max-width: 100%;
+    max-height: 500px;
+}
+.content {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 18px;
+}

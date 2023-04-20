@@ -1,0 +1,1816 @@
+[
+    {
+        "city": "Aksu",
+        "agodacityid": 79701,
+        "triptrainid": "阿克苏",
+        "airportid": "AKU",
+        "undefined": "aksu"
+    },
+    {
+        "city": "Altay",
+        "agodacityid": 390492,
+        "triptrainid": "阿勒泰",
+        "airportid": "AAT",
+        "undefined": "altay"
+    },
+    {
+        "city": "Alxa",
+        "agodacityid": 390499,
+        "airportid": "AXF",
+        "undefined": "alashanzuoqi"
+    },
+    {
+        "city": "Ankang",
+        "agodacityid": 161028,
+        "triptrainid": "安康",
+        "airportid": "AKA",
+        "undefined": "long-akah"
+    },
+    {
+        "city": "Anqing",
+        "agodacityid": 79703,
+        "triptrainid": "安庆",
+        "airportid": "AQG"
+    },
+    {
+        "city": "Anshan",
+        "agodacityid": 79704,
+        "triptrainid": "鞍山",
+        "airportid": "AOG"
+    },
+    {
+        "city": "Anshun",
+        "agodacityid": 160160,
+        "triptrainid": "安顺",
+        "airportid": "AVA"
+    },
+    {
+        "city": "Anyang",
+        "agodacityid": 106097,
+        "triptrainid": "安阳"
+    },
+    {
+        "city": "Baicheng",
+        "agodacityid": 160925,
+        "triptrainid": "白城",
+        "airportid": "DBC"
+    },
+    {
+        "city": "Baise",
+        "agodacityid": 392135,
+        "triptrainid": "百色",
+        "airportid": "AEB"
+    },
+    {
+        "city": "Baishan",
+        "agodacityid": 79853,
+        "triptrainid": "白山市",
+        "airportid": "NBS"
+    },
+    {
+        "city": "Baiyin",
+        "agodacityid": 159814,
+        "triptrainid": "白银市"
+    },
+    {
+        "city": "Baoding",
+        "agodacityid": 19937,
+        "triptrainid": "保定"
+    },
+    {
+        "city": "Baoji",
+        "agodacityid": 79913,
+        "triptrainid": "宝鸡"
+    },
+    {
+        "city": "Baotou",
+        "agodacityid": 79705,
+        "triptrainid": "包头",
+        "airportid": "BAV"
+    },
+    {
+        "city": "Bayingol",
+        "agodacityid": 393967,
+        "triptrainid": "巴彦高勒"
+    },
+    {
+        "city": "Bazhong",
+        "agodacityid": 161281,
+        "triptrainid": "巴中",
+        "airportid": "BZX"
+    },
+    {
+        "city": "Beihai",
+        "agodacityid": 79706,
+        "triptrainid": "北海",
+        "airportid": "BHY"
+    },
+    {
+        "city": "Beijing",
+        "agodacityid": 1569,
+        "triptrainid": "北京",
+        "airportid": "BJS"
+    },
+    {
+        "city": "Bengbu",
+        "agodacityid": 79707,
+        "triptrainid": "蚌埠"
+    },
+    {
+        "city": "Benxi",
+        "agodacityid": 395054,
+        "triptrainid": "本溪"
+    },
+    {
+        "city": "Binzhou",
+        "agodacityid": 161108,
+        "triptrainid": "滨州"
+    },
+    {
+        "city": "Bo'ao",
+        "agodacityid": 395458,
+        "triptrainid": "博鳌"
+    },
+    {
+        "city": "Bozhou",
+        "agodacityid": 159496,
+        "triptrainid": "亳州"
+    },
+    {
+        "city": "Cangzhou",
+        "agodacityid": 160335,
+        "triptrainid": "沧州"
+    },
+    {
+        "city": "Changchun",
+        "agodacityid": 4980,
+        "triptrainid": "长春",
+        "airportid": "CGQ"
+    },
+    {
+        "city": "Changde",
+        "agodacityid": 160630,
+        "triptrainid": "常德",
+        "airportid": "CGD"
+    },
+    {
+        "city": "Changsha",
+        "agodacityid": 79709,
+        "triptrainid": "长沙",
+        "airportid": "CSX"
+    },
+    {
+        "city": "Changzhi",
+        "agodacityid": 106099,
+        "triptrainid": "长治",
+        "airportid": "CIH"
+    },
+    {
+        "city": "Changzhou",
+        "agodacityid": 23744,
+        "triptrainid": "常州",
+        "airportid": "CZX"
+    },
+    {
+        "city": "Chaoyang",
+        "agodacityid": 106103,
+        "triptrainid": "朝阳",
+        "airportid": "CHG"
+    },
+    {
+        "city": "Chaozhou",
+        "agodacityid": 79854,
+        "triptrainid": "潮州"
+    },
+    {
+        "city": "Chengde",
+        "agodacityid": 79711,
+        "triptrainid": "承德",
+        "airportid": "CDE"
+    },
+    {
+        "city": "Chengdu",
+        "agodacityid": 4729,
+        "triptrainid": "成都",
+        "airportid": "CTU"
+    },
+    {
+        "city": "Chenzhou",
+        "agodacityid": 160634,
+        "triptrainid": "郴州"
+    },
+    {
+        "city": "Chifeng",
+        "agodacityid": 160767,
+        "triptrainid": "赤峰",
+        "airportid": "CIF"
+    },
+    {
+        "city": "Chizhou",
+        "agodacityid": 159500,
+        "triptrainid": "池州",
+        "airportid": "JUH"
+    },
+    {
+        "city": "Chongqing",
+        "agodacityid": 10084,
+        "triptrainid": "重庆",
+        "airportid": "CKG"
+    },
+    {
+        "city": "Chongzuo",
+        "agodacityid": 399861,
+        "triptrainid": "崇左"
+    },
+    {
+        "city": "Chuxiong",
+        "agodacityid": 161366,
+        "triptrainid": "楚雄"
+    },
+    {
+        "city": "Chuzhou",
+        "agodacityid": 159501,
+        "triptrainid": "滁州"
+    },
+    {
+        "city": "Dali",
+        "agodacityid": 79714,
+        "triptrainid": "大理",
+        "airportid": "DLU"
+    },
+    {
+        "city": "Dalian",
+        "agodacityid": 79620,
+        "triptrainid": "大连",
+        "airportid": "DLC"
+    },
+    {
+        "city": "Dandong",
+        "agodacityid": 79719,
+        "triptrainid": "丹东",
+        "airportid": "DDG"
+    },
+    {
+        "city": "Daqing",
+        "agodacityid": 79924,
+        "triptrainid": "大庆",
+        "airportid": "DQA"
+    },
+    {
+        "city": "Datong",
+        "agodacityid": 79918,
+        "triptrainid": "大同",
+        "airportid": "DAT"
+    },
+    {
+        "city": "Dazhou",
+        "agodacityid": 405000,
+        "triptrainid": "达州",
+        "airportid": "DAX"
+    },
+    {
+        "city": "Deqen",
+        "agodacityid": 405400,
+        "airportid": "DIG"
+    },
+    {
+        "city": "Deyang",
+        "agodacityid": 161284,
+        "triptrainid": "德阳"
+    },
+    {
+        "city": "Dezhou",
+        "agodacityid": 106009,
+        "triptrainid": "德州"
+    },
+    {
+        "city": "Dingxi",
+        "agodacityid": 159819,
+        "triptrainid": "定西"
+    },
+    {
+        "city": "Dongfang",
+        "agodacityid": 160239,
+        "triptrainid": "东方"
+    },
+    {
+        "city": "Dongguan",
+        "agodacityid": 16670,
+        "triptrainid": "东莞"
+    },
+    {
+        "city": "Dongying",
+        "agodacityid": 106102,
+        "triptrainid": "东营",
+        "airportid": "DOY"
+    },
+    {
+        "city": "Dunhuang",
+        "agodacityid": 79856,
+        "triptrainid": "敦煌",
+        "airportid": "DNH"
+    },
+    {
+        "city": "Enshi",
+        "agodacityid": 160579,
+        "triptrainid": "恩施",
+        "airportid": "ENH"
+    },
+    {
+        "city": "Ezhou",
+        "agodacityid": 160580,
+        "triptrainid": "鄂州"
+    },
+    {
+        "city": "Fangchenggang",
+        "agodacityid": 669668,
+        "triptrainid": "防城港北"
+    },
+    {
+        "city": "Fenghuang",
+        "agodacityid": 160352,
+        "triptrainid": "凤凰城"
+    },
+    {
+        "city": "Foshan",
+        "agodacityid": 19479,
+        "triptrainid": "佛山",
+        "airportid": "FUO"
+    },
+    {
+        "city": "Fushun",
+        "agodacityid": 411623,
+        "triptrainid": "抚顺"
+    },
+    {
+        "city": "Fuxin",
+        "agodacityid": 160971,
+        "triptrainid": "阜新"
+    },
+    {
+        "city": "Fuyang",
+        "agodacityid": 79726,
+        "triptrainid": "阜阳",
+        "airportid": "FYJ"
+    },
+    {
+        "city": "Fuzhou",
+        "agodacityid": 7900,
+        "triptrainid": "福州",
+        "airportid": "FOC"
+    },
+    {
+        "city": "Ganzhou",
+        "agodacityid": 79727,
+        "triptrainid": "赣州",
+        "airportid": "KOW"
+    },
+    {
+        "city": "Ganzi",
+        "agodacityid": 412393,
+        "airportid": "GZG"
+    },
+    {
+        "city": "Golmud",
+        "agodacityid": 416662,
+        "triptrainid": "格尔木",
+        "airportid": "GOQ"
+    },
+    {
+        "city": "Guang'an",
+        "agodacityid": 414522,
+        "triptrainid": "广安"
+    },
+    {
+        "city": "Guangyuan",
+        "agodacityid": 161295,
+        "triptrainid": "广元",
+        "airportid": "GYS"
+    },
+    {
+        "city": "Guangzhou",
+        "agodacityid": 10112,
+        "triptrainid": "广州",
+        "airportid": "CAN"
+    },
+    {
+        "city": "Guigang",
+        "agodacityid": 160103,
+        "triptrainid": "贵港"
+    },
+    {
+        "city": "Guilin",
+        "agodacityid": 15591,
+        "triptrainid": "桂林",
+        "airportid": "KWL"
+    },
+    {
+        "city": "Guiyang",
+        "agodacityid": 79729,
+        "triptrainid": "贵阳",
+        "airportid": "KWE"
+    },
+    {
+        "city": "Guyuan",
+        "agodacityid": 160357,
+        "triptrainid": "固原",
+        "airportid": "GYU"
+    },
+    {
+        "city": "Haibei",
+        "agodacityid": 416489,
+        "triptrainid": "海北"
+    },
+    {
+        "city": "Haidong (Qinghai)",
+        "agodacityid": 416512,
+        "triptrainid": "海东西"
+    },
+    {
+        "city": "Haikou",
+        "agodacityid": 11931,
+        "triptrainid": "海口",
+        "airportid": "HAK"
+    },
+    {
+        "city": "Haixi",
+        "agodacityid": 416662,
+        "triptrainid": "格尔木",
+        "airportid": "GOQ"
+    },
+    {
+        "city": "Hami",
+        "agodacityid": 19830,
+        "triptrainid": "哈密",
+        "airportid": "HMI"
+    },
+    {
+        "city": "Handan",
+        "agodacityid": 160359,
+        "triptrainid": "邯郸",
+        "airportid": "HDG"
+    },
+    {
+        "city": "Hangzhou",
+        "agodacityid": 14892,
+        "triptrainid": "杭州",
+        "airportid": "HGH"
+    },
+    {
+        "city": "Hanzhong",
+        "agodacityid": 161043,
+        "triptrainid": "汉中",
+        "airportid": "HZG"
+    },
+    {
+        "city": "Harbin",
+        "agodacityid": 2772,
+        "triptrainid": "哈尔滨",
+        "airportid": "HRB"
+    },
+    {
+        "city": "Hebi",
+        "agodacityid": 160513,
+        "triptrainid": "鹤壁"
+    },
+    {
+        "city": "Hechi",
+        "agodacityid": 417464,
+        "airportid": "HCJ"
+    },
+    {
+        "city": "Hefei",
+        "agodacityid": 3881,
+        "triptrainid": "合肥",
+        "airportid": "HFE"
+    },
+    {
+        "city": "Hegang",
+        "agodacityid": 160438,
+        "triptrainid": "鹤岗"
+    },
+    {
+        "city": "Heihe",
+        "agodacityid": 160439,
+        "triptrainid": "黑河",
+        "airportid": "HEK"
+    },
+    {
+        "city": "Hengshui",
+        "agodacityid": 160361,
+        "triptrainid": "衡水"
+    },
+    {
+        "city": "Hengyang",
+        "agodacityid": 160655,
+        "triptrainid": "衡阳",
+        "airportid": "HNY"
+    },
+    {
+        "city": "Heyuan",
+        "agodacityid": 79731,
+        "triptrainid": "河源"
+    },
+    {
+        "city": "Heze",
+        "agodacityid": 161118,
+        "triptrainid": "菏泽"
+    },
+    {
+        "city": "Hezhou",
+        "agodacityid": 79732,
+        "triptrainid": "贺州"
+    },
+    {
+        "city": "Hohhot",
+        "agodacityid": 79733,
+        "triptrainid": "呼和浩特",
+        "airportid": "HET"
+    },
+    {
+        "city": "Hong Kong",
+        "agodacityid": 16808,
+        "triptrainid": "香港西九龙",
+        "airportid": "HKG"
+    },
+    {
+        "city": "Honghe",
+        "agodacityid": 161378,
+        "triptrainid": "洪河"
+    },
+    {
+        "city": "Hotan",
+        "agodacityid": 419616,
+        "airportid": "HTN"
+    },
+    {
+        "city": "Huai'an",
+        "agodacityid": 420884,
+        "triptrainid": "淮安",
+        "airportid": "HIA"
+    },
+    {
+        "city": "Huaibei",
+        "agodacityid": 159509,
+        "triptrainid": "淮北"
+    },
+    {
+        "city": "Huaihua",
+        "agodacityid": 160659,
+        "triptrainid": "怀化",
+        "airportid": "HJJ"
+    },
+    {
+        "city": "Huainan",
+        "agodacityid": 79734,
+        "triptrainid": "淮南"
+    },
+    {
+        "city": "Huanggang",
+        "agodacityid": 421399,
+        "triptrainid": "黄冈"
+    },
+    {
+        "city": "Huangshan",
+        "agodacityid": 21664,
+        "triptrainid": "黄山",
+        "airportid": "TXN"
+    },
+    {
+        "city": "Huangshi",
+        "agodacityid": 160591,
+        "triptrainid": "黄石"
+    },
+    {
+        "city": "Huizhou",
+        "agodacityid": 16675,
+        "triptrainid": "惠州",
+        "airportid": "HUZ"
+    },
+    {
+        "city": "Huludao",
+        "agodacityid": 160976,
+        "triptrainid": "葫芦岛"
+    },
+    {
+        "city": "Huzhou",
+        "agodacityid": 23746,
+        "triptrainid": "湖州"
+    },
+    {
+        "city": "Jiamusi",
+        "agodacityid": 79735,
+        "triptrainid": "佳木斯",
+        "airportid": "JMU"
+    },
+    {
+        "city": "Ji'an",
+        "agodacityid": 106087,
+        "triptrainid": "吉安",
+        "airportid": "JGS"
+    },
+    {
+        "city": "Jiangmen",
+        "agodacityid": 79737,
+        "triptrainid": "江门"
+    },
+    {
+        "city": "Jiaozuo",
+        "agodacityid": 105939,
+        "triptrainid": "焦作"
+    },
+    {
+        "city": "Jiaxing",
+        "agodacityid": 19373,
+        "triptrainid": "嘉兴"
+    },
+    {
+        "city": "Jiayuguan",
+        "agodacityid": 79740,
+        "triptrainid": "嘉峪关",
+        "airportid": "JGN"
+    },
+    {
+        "city": "Jieyang",
+        "agodacityid": 425931,
+        "triptrainid": "揭阳"
+    },
+    {
+        "city": "Jilin",
+        "agodacityid": 18595,
+        "triptrainid": "吉林"
+    },
+    {
+        "city": "Jinan",
+        "agodacityid": 8430,
+        "triptrainid": "济南",
+        "airportid": "TNA"
+    },
+    {
+        "city": "Jinchang",
+        "agodacityid": 159827,
+        "triptrainid": "金昌",
+        "airportid": "JIC"
+    },
+    {
+        "city": "Jincheng",
+        "agodacityid": 161221,
+        "triptrainid": "晋城"
+    },
+    {
+        "city": "Jingdezhen",
+        "agodacityid": 79741,
+        "triptrainid": "景德镇",
+        "airportid": "JDZ"
+    },
+    {
+        "city": "Jingmen",
+        "agodacityid": 160596,
+        "triptrainid": "荆门"
+    },
+    {
+        "city": "Jingzhou",
+        "agodacityid": 160597,
+        "triptrainid": "荆州"
+    },
+    {
+        "city": "Jinhua",
+        "agodacityid": 79743,
+        "triptrainid": "金华",
+        "airportid": "YIW",
+        "undefined": "yiwu"
+    },
+    {
+        "city": "Jining",
+        "agodacityid": 106111,
+        "triptrainid": "济宁",
+        "airportid": "JNG"
+    },
+    {
+        "city": "Jinzhong",
+        "agodacityid": 427167,
+        "triptrainid": "晋中",
+        "airportid": "JHG"
+    },
+    {
+        "city": "Jinzhou",
+        "agodacityid": 390223,
+        "triptrainid": "锦州",
+        "airportid": "JNZ"
+    },
+    {
+        "city": "Jiujiang",
+        "agodacityid": 79654,
+        "triptrainid": "九江"
+    },
+    {
+        "city": "Jiuquan",
+        "agodacityid": 159830,
+        "triptrainid": "酒泉",
+        "airportid": "JGN"
+    },
+    {
+        "city": "Jiuzhaigou",
+        "agodacityid": 21502,
+        "airportid": "JZH"
+    },
+    {
+        "city": "Jixi",
+        "agodacityid": 160451,
+        "triptrainid": "鸡西",
+        "airportid": "JXA"
+    },
+    {
+        "city": "Jiyuan",
+        "agodacityid": 160523,
+        "triptrainid": "济源"
+    },
+    {
+        "city": "Kaifeng",
+        "agodacityid": 79749,
+        "triptrainid": "开封"
+    },
+    {
+        "city": "Karamay",
+        "agodacityid": 79752,
+        "triptrainid": "克拉玛依",
+        "airportid": "KRY"
+    },
+    {
+        "city": "Kashgar",
+        "agodacityid": 79753,
+        "triptrainid": "喀什",
+        "airportid": "KHG"
+    },
+    {
+        "city": "Kunming",
+        "agodacityid": 5445,
+        "triptrainid": "昆明",
+        "airportid": "KMG"
+    },
+    {
+        "city": "Laibin",
+        "agodacityid": 160114,
+        "triptrainid": "来宾"
+    },
+    {
+        "city": "Laiwu",
+        "agodacityid": 106007,
+        "triptrainid": "莱芜东"
+    },
+    {
+        "city": "Langfang",
+        "agodacityid": 79754,
+        "triptrainid": "廊坊"
+    },
+    {
+        "city": "Lanzhou",
+        "agodacityid": 12737,
+        "triptrainid": "兰州",
+        "airportid": "LHW"
+    },
+    {
+        "city": "Ledong",
+        "agodacityid": 431416,
+        "triptrainid": "乐东"
+    },
+    {
+        "city": "Leshan",
+        "agodacityid": 79863,
+        "triptrainid": "乐山"
+    },
+    {
+        "city": "Lhasa",
+        "agodacityid": 10509,
+        "triptrainid": "拉萨",
+        "airportid": "LXA"
+    },
+    {
+        "city": "Liangshan",
+        "agodacityid": 432161,
+        "triptrainid": "梁山"
+    },
+    {
+        "city": "Lianyungang",
+        "agodacityid": 79755,
+        "triptrainid": "连云港",
+        "airportid": "LYG"
+    },
+    {
+        "city": "Liaocheng",
+        "agodacityid": 161130,
+        "triptrainid": "聊城"
+    },
+    {
+        "city": "Liaoyang",
+        "agodacityid": 160983,
+        "triptrainid": "辽阳"
+    },
+    {
+        "city": "Liaoyuan",
+        "agodacityid": 160940,
+        "triptrainid": "辽源"
+    },
+    {
+        "city": "Lijiang",
+        "agodacityid": 79756,
+        "triptrainid": "丽江",
+        "airportid": "LJG"
+    },
+    {
+        "city": "Linfen",
+        "agodacityid": 161229,
+        "triptrainid": "临汾",
+        "airportid": "LFQ"
+    },
+    {
+        "city": "Linyi",
+        "agodacityid": 161132,
+        "triptrainid": "临沂",
+        "airportid": "LYI"
+    },
+    {
+        "city": "Lishui",
+        "agodacityid": 105638,
+        "triptrainid": "丽水"
+    },
+    {
+        "city": "Liupanshui",
+        "agodacityid": 711826,
+        "triptrainid": "六盘水",
+        "airportid": "LPF"
+    },
+    {
+        "city": "Liuzhou",
+        "agodacityid": 79757,
+        "triptrainid": "柳州",
+        "airportid": "LZH"
+    },
+    {
+        "city": "Longnan",
+        "agodacityid": 436055,
+        "triptrainid": "陇南",
+        "airportid": "LNL"
+    },
+    {
+        "city": "Longyan",
+        "agodacityid": 79758,
+        "triptrainid": "龙岩",
+        "airportid": "LCX"
+    },
+    {
+        "city": "Loudi",
+        "agodacityid": 160694,
+        "triptrainid": "娄底"
+    },
+    {
+        "city": "Luohe",
+        "agodacityid": 160526,
+        "triptrainid": "漯河"
+    },
+    {
+        "city": "Luoyang",
+        "agodacityid": 21711,
+        "triptrainid": "洛阳",
+        "airportid": "LYA"
+    },
+    {
+        "city": "Luzhou",
+        "agodacityid": 161309,
+        "airportid": "LZO"
+    },
+    {
+        "city": "Lvliang",
+        "agodacityid": 437105,
+        "triptrainid": "吕梁"
+    },
+    {
+        "city": "Maanshan",
+        "agodacityid": 159524,
+        "triptrainid": "马鞍山"
+    },
+    {
+        "city": "Macau",
+        "agodacityid": 21397,
+        "airportid": "MFM"
+    },
+    {
+        "city": "Manzhouli",
+        "agodacityid": 160776,
+        "triptrainid": "满洲里",
+        "airportid": "NZH"
+    },
+    {
+        "city": "Maoming",
+        "agodacityid": 159979,
+        "triptrainid": "茂名"
+    },
+    {
+        "city": "Meishan",
+        "agodacityid": 160276,
+        "triptrainid": "眉山"
+    },
+    {
+        "city": "Meizhou",
+        "agodacityid": 159981,
+        "triptrainid": "梅州",
+        "airportid": "MXZ"
+    },
+    {
+        "city": "Mianyang",
+        "agodacityid": 79859,
+        "triptrainid": "绵阳",
+        "airportid": "MIG"
+    },
+    {
+        "city": "Mount Emei",
+        "agodacityid": 79860,
+        "triptrainid": "峨眉山"
+    },
+    {
+        "city": "Mudanjiang",
+        "agodacityid": 79760,
+        "triptrainid": "牡丹江",
+        "airportid": "MDG"
+    },
+    {
+        "city": "Nanchang",
+        "agodacityid": 16667,
+        "triptrainid": "南昌",
+        "airportid": "KHN"
+    },
+    {
+        "city": "Nanchong",
+        "agodacityid": 161314,
+        "triptrainid": "南充",
+        "airportid": "NAO"
+    },
+    {
+        "city": "Nanjing",
+        "agodacityid": 7875,
+        "triptrainid": "南京",
+        "airportid": "NKG"
+    },
+    {
+        "city": "Nanning",
+        "agodacityid": 23733,
+        "triptrainid": "南宁",
+        "airportid": "NNG"
+    },
+    {
+        "city": "Nanping Shi",
+        "agodacityid": 443376,
+        "triptrainid": "南平市"
+    },
+    {
+        "city": "Nantong",
+        "agodacityid": 79761,
+        "triptrainid": "南通",
+        "airportid": "NTG"
+    },
+    {
+        "city": "Nanyang",
+        "agodacityid": 79762,
+        "triptrainid": "南阳",
+        "airportid": "NNY"
+    },
+    {
+        "city": "Neijiang",
+        "agodacityid": 161316,
+        "triptrainid": "内江"
+    },
+    {
+        "city": "Ningbo",
+        "agodacityid": 6355,
+        "triptrainid": "宁波",
+        "airportid": "NGB"
+    },
+    {
+        "city": "Ningde",
+        "agodacityid": 159719,
+        "triptrainid": "宁德"
+    },
+    {
+        "city": "Nyingchi",
+        "agodacityid": 445448,
+        "airportid": "LZY"
+    },
+    {
+        "city": "Ordos",
+        "agodacityid": 79857,
+        "triptrainid": "鄂尔多斯",
+        "airportid": "DSN"
+    },
+    {
+        "city": "Panjin",
+        "agodacityid": 79763,
+        "triptrainid": "盘锦"
+    },
+    {
+        "city": "Panzhihua",
+        "agodacityid": 161317,
+        "triptrainid": "攀枝花",
+        "airportid": "PZI"
+    },
+    {
+        "city": "Pingdingshan",
+        "agodacityid": 160530,
+        "triptrainid": "平顶山"
+    },
+    {
+        "city": "Pingliang",
+        "agodacityid": 159842,
+        "triptrainid": "平凉"
+    },
+    {
+        "city": "Pingxiang",
+        "agodacityid": 160893,
+        "triptrainid": "凭祥"
+    },
+    {
+        "city": "Puer",
+        "agodacityid": 161408,
+        "airportid": "SYM"
+    },
+    {
+        "city": "Putian",
+        "agodacityid": 105632,
+        "triptrainid": "莆田"
+    },
+    {
+        "city": "Puyang",
+        "agodacityid": 160533,
+        "triptrainid": "濮阳"
+    },
+    {
+        "city": "Qiandao Lake",
+        "agodacityid": 671666,
+        "triptrainid": "千岛湖"
+    },
+    {
+        "city": "Qiannan",
+        "agodacityid": 711742,
+        "triptrainid": "乾安"
+    },
+    {
+        "city": "Qingdao",
+        "agodacityid": 12411,
+        "triptrainid": "青岛",
+        "airportid": "TAO"
+    },
+    {
+        "city": "Qingyuan",
+        "agodacityid": 101011,
+        "triptrainid": "清远"
+    },
+    {
+        "city": "Qinhuangdao",
+        "agodacityid": 79764,
+        "triptrainid": "秦皇岛",
+        "airportid": "BPE"
+    },
+    {
+        "city": "Qinzhou",
+        "agodacityid": 160128,
+        "triptrainid": "钦州"
+    },
+    {
+        "city": "Qiqihar",
+        "agodacityid": 79766,
+        "triptrainid": "齐齐哈尔",
+        "airportid": "NDG"
+    },
+    {
+        "city": "Quanzhou",
+        "agodacityid": 19480,
+        "triptrainid": "泉州",
+        "airportid": "JJN"
+    },
+    {
+        "city": "Qujing",
+        "agodacityid": 161409,
+        "triptrainid": "曲靖"
+    },
+    {
+        "city": "Quzhou",
+        "agodacityid": 30335,
+        "triptrainid": "衢州",
+        "airportid": "JUZ"
+    },
+    {
+        "city": "Rizhao",
+        "agodacityid": 106106,
+        "triptrainid": "日照",
+        "airportid": "RIZ"
+    },
+    {
+        "city": "Sanmenxia",
+        "agodacityid": 160543,
+        "triptrainid": "三门峡"
+    },
+    {
+        "city": "Sanming",
+        "agodacityid": 159731,
+        "triptrainid": "三明",
+        "airportid": "SQJ"
+    },
+    {
+        "city": "Sanya",
+        "agodacityid": 14544,
+        "triptrainid": "三亚",
+        "airportid": "SYX"
+    },
+    {
+        "city": "Shanghai",
+        "agodacityid": 3987,
+        "triptrainid": "上海",
+        "airportid": "SHA"
+    },
+    {
+        "city": "Shangluo",
+        "agodacityid": 161070,
+        "triptrainid": "商洛"
+    },
+    {
+        "city": "Shangqiu",
+        "agodacityid": 160544,
+        "triptrainid": "商丘"
+    },
+    {
+        "city": "Shangrao",
+        "agodacityid": 160898,
+        "triptrainid": "上饶",
+        "airportid": "SQD"
+    },
+    {
+        "city": "Shangri-La",
+        "agodacityid": 405400,
+        "airportid": "DIG"
+    },
+    {
+        "city": "Shantou",
+        "agodacityid": 15347,
+        "triptrainid": "汕头",
+        "airportid": "SWA"
+    },
+    {
+        "city": "Shanwei",
+        "agodacityid": 160291,
+        "triptrainid": "汕尾"
+    },
+    {
+        "city": "Shaoguan",
+        "agodacityid": 79768,
+        "triptrainid": "韶关"
+    },
+    {
+        "city": "Shaoxing",
+        "agodacityid": 79769,
+        "triptrainid": "绍兴",
+        "airportid": "WGN"
+    },
+    {
+        "city": "Shennongjia Linqu",
+        "agodacityid": 500014,
+        "airportid": "HPG"
+    },
+    {
+        "city": "Shenyang",
+        "agodacityid": 3829,
+        "triptrainid": "沈阳",
+        "airportid": "SHE"
+    },
+    {
+        "city": "Shenzhen",
+        "agodacityid": 12333,
+        "triptrainid": "深圳",
+        "airportid": "SZX"
+    },
+    {
+        "city": "Shigatse",
+        "agodacityid": 79770,
+        "airportid": "RKZ"
+    },
+    {
+        "city": "Shihezi",
+        "agodacityid": 161358,
+        "triptrainid": "石河子",
+        "airportid": "SHF"
+    },
+    {
+        "city": "Shijiazhuang",
+        "agodacityid": 1286,
+        "triptrainid": "石家庄",
+        "airportid": "SJW"
+    },
+    {
+        "city": "Shiyan",
+        "agodacityid": 160606,
+        "triptrainid": "十堰",
+        "airportid": "WDS"
+    },
+    {
+        "city": "Shizuishan",
+        "agodacityid": 161015,
+        "triptrainid": "石嘴山"
+    },
+    {
+        "city": "Shuangyashan",
+        "agodacityid": 160479,
+        "triptrainid": "双鸭山"
+    },
+    {
+        "city": "Shuozhou",
+        "agodacityid": 161244,
+        "triptrainid": "朔州"
+    },
+    {
+        "city": "Siping",
+        "agodacityid": 160946,
+        "triptrainid": "四平"
+    },
+    {
+        "city": "Songyuan",
+        "agodacityid": 159745,
+        "triptrainid": "松原",
+        "airportid": "YSQ"
+    },
+    {
+        "city": "Suihua",
+        "agodacityid": 160480,
+        "triptrainid": "绥化"
+    },
+    {
+        "city": "Suining",
+        "agodacityid": 504901,
+        "triptrainid": "遂宁"
+    },
+    {
+        "city": "Suizhou",
+        "agodacityid": 504923,
+        "triptrainid": "苏州"
+    },
+    {
+        "city": "Suqian",
+        "agodacityid": 160829,
+        "triptrainid": "宿迁"
+    },
+    {
+        "city": "Suzhou",
+        "agodacityid": 6343,
+        "triptrainid": "苏州",
+        "airportid": "WUX"
+    },
+    {
+        "city": "Tacheng",
+        "agodacityid": 505449,
+        "triptrainid": "塔城"
+    },
+    {
+        "city": "Tai'an",
+        "agodacityid": 79771,
+        "triptrainid": "泰安"
+    },
+    {
+        "city": "Taihuai",
+        "agodacityid": 710937,
+        "triptrainid": "五台山"
+    },
+    {
+        "city": "Taishan",
+        "agodacityid": 79771,
+        "triptrainid": "泰山"
+    },
+    {
+        "city": "Taiyuan",
+        "agodacityid": 79914,
+        "triptrainid": "太原",
+        "airportid": "TYN"
+    },
+    {
+        "city": "Taizhou (Jiangsu)",
+        "agodacityid": 105954,
+        "triptrainid": "泰州",
+        "airportid": "YTY"
+    },
+    {
+        "city": "Taizhou (Zhejiang)",
+        "agodacityid": 79774,
+        "triptrainid": "台州",
+        "airportid": "HYN"
+    },
+    {
+        "city": "Tangshan",
+        "agodacityid": 79775,
+        "triptrainid": "唐山",
+        "airportid": "TVS"
+    },
+    {
+        "city": "Tengchong",
+        "agodacityid": 390169,
+        "airportid": "TCZ"
+    },
+    {
+        "city": "Tianjin",
+        "agodacityid": 13259,
+        "triptrainid": "天津",
+        "airportid": "TSN"
+    },
+    {
+        "city": "Tianmen",
+        "agodacityid": 160609,
+        "triptrainid": "天门",
+        "airportid": "THQ"
+    },
+    {
+        "city": "Tianshui",
+        "agodacityid": 159851,
+        "triptrainid": "天水"
+    },
+    {
+        "city": "Tieling",
+        "agodacityid": 160997,
+        "triptrainid": "铁岭"
+    },
+    {
+        "city": "Tonghua",
+        "agodacityid": 508717,
+        "triptrainid": "通化",
+        "airportid": "TNH"
+    },
+    {
+        "city": "Tongliao",
+        "agodacityid": 160778,
+        "triptrainid": "通辽",
+        "airportid": "TGO"
+    },
+    {
+        "city": "Tongling",
+        "agodacityid": 159543,
+        "triptrainid": "铜陵"
+    },
+    {
+        "city": "Tongren",
+        "agodacityid": 508917,
+        "triptrainid": "铜仁",
+        "airportid": "TEN"
+    },
+    {
+        "city": "Turpan",
+        "agodacityid": 79776,
+        "triptrainid": "吐鲁番",
+        "airportid": "TLQ"
+    },
+    {
+        "city": "Ulanqab",
+        "agodacityid": 509966,
+        "triptrainid": "乌兰察布",
+        "airportid": "UCB"
+    },
+    {
+        "city": "Urumqi",
+        "agodacityid": 15899,
+        "triptrainid": "乌鲁木齐",
+        "airportid": "URC"
+    },
+    {
+        "city": "Wanning",
+        "agodacityid": 511631,
+        "triptrainid": "万宁"
+    },
+    {
+        "city": "Weifang",
+        "agodacityid": 79777,
+        "triptrainid": "潍坊",
+        "airportid": "WEF"
+    },
+    {
+        "city": "Weihai",
+        "agodacityid": 79638,
+        "triptrainid": "威海",
+        "airportid": "WEH"
+    },
+    {
+        "city": "Weinan",
+        "agodacityid": 79922,
+        "triptrainid": "渭南"
+    },
+    {
+        "city": "Wenzhou",
+        "agodacityid": 79778,
+        "triptrainid": "温州",
+        "airportid": "WNZ"
+    },
+    {
+        "city": "Wuhai",
+        "agodacityid": 160780,
+        "triptrainid": "乌海",
+        "airportid": "WUA"
+    },
+    {
+        "city": "Wuhan",
+        "agodacityid": 5818,
+        "triptrainid": "武汉",
+        "airportid": "WUH"
+    },
+    {
+        "city": "Wuhu",
+        "agodacityid": 79779,
+        "triptrainid": "芜湖"
+    },
+    {
+        "city": "Wutaishan",
+        "agodacityid": 710937,
+        "triptrainid": "五台山"
+    },
+    {
+        "city": "Wuwei",
+        "agodacityid": 159855,
+        "triptrainid": "武威)"
+    },
+    {
+        "city": "Wuxi",
+        "agodacityid": 4556,
+        "triptrainid": "无锡",
+        "airportid": "WUX"
+    },
+    {
+        "city": "Wuyishan",
+        "agodacityid": 79780,
+        "triptrainid": "武夷山",
+        "airportid": "WUS"
+    },
+    {
+        "city": "Wuzhou",
+        "agodacityid": 160138,
+        "triptrainid": "梧州",
+        "airportid": "WUZ"
+    },
+    {
+        "city": "Xiamen",
+        "agodacityid": 4191,
+        "triptrainid": "厦门",
+        "airportid": "XMN"
+    },
+    {
+        "city": "Xian",
+        "agodacityid": 15947,
+        "triptrainid": "西安",
+        "airportid": "XIY"
+    },
+    {
+        "city": "Xiangtan",
+        "agodacityid": 473186,
+        "triptrainid": "向塘"
+    },
+    {
+        "city": "Xiangyang",
+        "agodacityid": 672961,
+        "triptrainid": "襄阳",
+        "airportid": "XFN"
+    },
+    {
+        "city": "Xiangzhou Qu",
+        "agodacityid": 473290,
+        "triptrainid": "襄州"
+    },
+    {
+        "city": "Xianning",
+        "agodacityid": 160614,
+        "triptrainid": "咸宁"
+    },
+    {
+        "city": "Xiantao",
+        "agodacityid": 160615,
+        "triptrainid": "仙桃西"
+    },
+    {
+        "city": "Xianyang",
+        "agodacityid": 79915,
+        "triptrainid": "咸阳"
+    },
+    {
+        "city": "Xiaogan",
+        "agodacityid": 160616,
+        "triptrainid": "孝感"
+    },
+    {
+        "city": "Xingtai",
+        "agodacityid": 477941,
+        "triptrainid": "邢台"
+    },
+    {
+        "city": "Xining",
+        "agodacityid": 79786,
+        "triptrainid": "西宁",
+        "airportid": "XNN"
+    },
+    {
+        "city": "Xinxiang",
+        "agodacityid": 160558,
+        "triptrainid": "新乡"
+    },
+    {
+        "city": "Xinyang",
+        "agodacityid": 160559,
+        "triptrainid": "信阳",
+        "airportid": "XAI"
+    },
+    {
+        "city": "Xinyu",
+        "agodacityid": 160911,
+        "triptrainid": "新余"
+    },
+    {
+        "city": "Xinzhou",
+        "agodacityid": 478826,
+        "triptrainid": "忻州",
+        "airportid": "WUT"
+    },
+    {
+        "city": "Xishuangbanna",
+        "agodacityid": 479183,
+        "airportid": "JHG"
+    },
+    {
+        "city": "Xuancheng",
+        "agodacityid": 159560,
+        "triptrainid": "宣城"
+    },
+    {
+        "city": "Xuchang",
+        "agodacityid": 106098,
+        "triptrainid": "许昌"
+    },
+    {
+        "city": "Xuzhou",
+        "agodacityid": 79788,
+        "triptrainid": "徐州",
+        "airportid": "XUZ"
+    },
+    {
+        "city": "Yaan",
+        "agodacityid": 161335,
+        "triptrainid": "雅安"
+    },
+    {
+        "city": "Yabuli",
+        "agodacityid": 160475,
+        "triptrainid": "亚布力"
+    },
+    {
+        "city": "Yanan",
+        "agodacityid": 161090,
+        "triptrainid": "延安",
+        "airportid": "ENY"
+    },
+    {
+        "city": "Yanbian",
+        "agodacityid": 79805,
+        "triptrainid": "延吉",
+        "airportid": "YNJ"
+    },
+    {
+        "city": "Yancheng",
+        "agodacityid": 106006,
+        "triptrainid": "盐城",
+        "airportid": "YNZ"
+    },
+    {
+        "city": "Yangjiang",
+        "agodacityid": 102467,
+        "triptrainid": "阳江"
+    },
+    {
+        "city": "Yangquan",
+        "agodacityid": 161263,
+        "triptrainid": "阳泉"
+    },
+    {
+        "city": "Yangshuo",
+        "agodacityid": 79631,
+        "triptrainid": "阳朔"
+    },
+    {
+        "city": "Yangzhou",
+        "agodacityid": 79789,
+        "triptrainid": "扬州"
+    },
+    {
+        "city": "Yantai",
+        "agodacityid": 79639,
+        "triptrainid": "烟台",
+        "airportid": "YNT"
+    },
+    {
+        "city": "Yibin",
+        "agodacityid": 79862,
+        "triptrainid": "宜宾",
+        "airportid": "YBP"
+    },
+    {
+        "city": "Yichang",
+        "agodacityid": 1710,
+        "triptrainid": "宜昌",
+        "airportid": "YIH"
+    },
+    {
+        "city": "Yichun (Heilongjiang)",
+        "agodacityid": 160489,
+        "triptrainid": "伊春",
+        "airportid": "LDS"
+    },
+    {
+        "city": "Yichun (Jiangxi)",
+        "agodacityid": 513049,
+        "triptrainid": "宜春",
+        "airportid": "YIC"
+    },
+    {
+        "city": "Yinchuan",
+        "agodacityid": 79790,
+        "triptrainid": "银川",
+        "airportid": "INC"
+    },
+    {
+        "city": "Yingtan",
+        "agodacityid": 160916,
+        "triptrainid": "鹰潭"
+    },
+    {
+        "city": "Yiwu",
+        "agodacityid": 19477,
+        "triptrainid": "义乌",
+        "airportid": "YIW"
+    },
+    {
+        "city": "Yiyang",
+        "agodacityid": 160755,
+        "triptrainid": "益阳"
+    },
+    {
+        "city": "Yongzhou",
+        "agodacityid": 160759,
+        "triptrainid": "永州",
+        "airportid": "LLF"
+    },
+    {
+        "city": "Yuanyang",
+        "agodacityid": 485757,
+        "triptrainid": "鸳鸯镇"
+    },
+    {
+        "city": "Yueyang",
+        "agodacityid": 79794,
+        "triptrainid": "岳阳",
+        "airportid": "YYA"
+    },
+    {
+        "city": "Yulin",
+        "agodacityid": 160148,
+        "triptrainid": "玉林",
+        "airportid": "UYN"
+    },
+    {
+        "city": "Yuncheng",
+        "agodacityid": 161273,
+        "triptrainid": "运城",
+        "airportid": "YCU"
+    },
+    {
+        "city": "Yunfu",
+        "agodacityid": 160075,
+        "triptrainid": "云浮东"
+    },
+    {
+        "city": "Yushu",
+        "agodacityid": 486778,
+        "triptrainid": "榆树",
+        "airportid": "YUS"
+    },
+    {
+        "city": "Yuxi",
+        "agodacityid": 79848,
+        "triptrainid": "玉溪"
+    },
+    {
+        "city": "Zaozhuang",
+        "agodacityid": 161168,
+        "triptrainid": "枣庄"
+    },
+    {
+        "city": "Zhangjiajie",
+        "agodacityid": 79797,
+        "triptrainid": "张家界",
+        "airportid": "DYG"
+    },
+    {
+        "city": "Zhangjiakou",
+        "agodacityid": 160417,
+        "triptrainid": "张家口",
+        "airportid": "ZQZ"
+    },
+    {
+        "city": "Zhangye",
+        "agodacityid": 20018,
+        "triptrainid": "张掖",
+        "airportid": "YZY"
+    },
+    {
+        "city": "Zhangzhou",
+        "agodacityid": 79850,
+        "triptrainid": "漳州"
+    },
+    {
+        "city": "Zhanjiang",
+        "agodacityid": 79851,
+        "triptrainid": "湛江",
+        "airportid": "ZHA"
+    },
+    {
+        "city": "Zhaoqing",
+        "agodacityid": 79852,
+        "triptrainid": "肇庆"
+    },
+    {
+        "city": "Zhaotong",
+        "agodacityid": 161432,
+        "triptrainid": "昭通",
+        "airportid": "ZAT"
+    },
+    {
+        "city": "Zhengzhou",
+        "agodacityid": 9473,
+        "triptrainid": "郑州",
+        "airportid": "CGO"
+    },
+    {
+        "city": "Zhenjiang",
+        "agodacityid": 79798,
+        "triptrainid": "镇江"
+    },
+    {
+        "city": "Zhenyuan",
+        "agodacityid": 513546,
+        "triptrainid": "镇远"
+    },
+    {
+        "city": "Zhongshan",
+        "agodacityid": 5682,
+        "triptrainid": "钟山"
+    },
+    {
+        "city": "Zhongwei",
+        "agodacityid": 490472,
+        "triptrainid": "中卫",
+        "airportid": "ZHY"
+    },
+    {
+        "city": "Zhoukou",
+        "agodacityid": 160573,
+        "triptrainid": "周口"
+    },
+    {
+        "city": "Zhoushan",
+        "agodacityid": 79800,
+        "triptrainid": "宁波",
+        "airportid": "HSN"
+    },
+    {
+        "city": "Zhuhai",
+        "agodacityid": 10022,
+        "triptrainid": "珠海",
+        "airportid": "ZUH"
+    },
+    {
+        "city": "Zhumadian",
+        "agodacityid": 105952,
+        "triptrainid": "驻马店"
+    },
+    {
+        "city": "Zhuzhou",
+        "agodacityid": 160766,
+        "triptrainid": "株洲"
+    },
+    {
+        "city": "Zibo",
+        "agodacityid": 79803,
+        "triptrainid": "淄博"
+    },
+    {
+        "city": "Zigong",
+        "agodacityid": 79865,
+        "triptrainid": "自贡"
+    },
+    {
+        "city": "Ziyang",
+        "agodacityid": 161339,
+        "triptrainid": "紫阳"
+    },
+    {
+        "city": "Zunyi",
+        "agodacityid": 160216,
+        "triptrainid": "遵义",
+        "airportid": "ZYI"
+    }
+]

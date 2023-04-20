@@ -1,0 +1,127 @@
+<h2>Sources:</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Type</th>
+      <th>Data extracted</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://partners.agoda.com/">Agoda Partners Portal</a></td>
+      <td>CSV file<sup>1</sup></td>
+      <td>Information of all hotels offered in the portal</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.booking.com/">Booking</a></td>
+      <td>Web Scrapping</td>
+      <td>Number of hotels offered in a country, city or region</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.bing.com/">Bing</a></td>
+      <td>Web Scrapping</td>
+      <td>Search for Booking URL for a certain city</td>
+    </tr>
+    <tr>
+      <td><a href="https://restcountries.com/">Rest Countries</a></td>
+      <td>API</td>
+      <td>ISO codes and names of the countries</td>
+    </tr>
+  </tbody>
+</table>
+<p><sup>1</sup> File not provided in the repo</p>
+<h2>Python libraries used:</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pandas</td>
+      <td>Data Frame manipulation</td>
+    </tr>
+    <tr>
+      <td>Seaborn</td>
+      <td>Visualization</td>
+    </tr>
+    <tr>
+      <td>Matplotlib</td>
+      <td>Visualization</td>
+    </tr>
+    <tr>
+      <td>Responses</td>
+      <td>HTTP Calls</td>
+    </tr>
+    <tr>
+      <td>Bs4 (BeautifulSoup)</td>
+      <td>HTML manipulation</td>
+    </tr>
+    <tr>
+      <td>Geopandas</td>
+      <td>Country map visualization</td>
+    </tr>
+    <tr>
+      <td>Unidecode</td>
+      <td>Encode to UTF8 cities names</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Background:</h2>
+<ul>
+  <li>Booking.com headquarters are located in Amsterdam, Netherlands.</li>
+  <li>Agoda headquarters are located in Singapore.</li>
+  <li>Currently Agoda is a currently a subsidiary of Booking Holdings.</li>
+</ul>
+<h2>Objective of the study:</h2>
+<ul>
+  <li>Compare the hotel booking platforms <a href="https://www.booking.com/">Booking</a> and <a href="https://www.agoda.com/">Agoda</a>.</li>
+</ul>
+<h2>Limitations of the study</h2>
+<ul>
+  <li>The impossibility to access to the Booking.com official data (API or Database) have forced to use web scrapping, this method might under-represent the number of hotels and locations for this platform</li>
+  <li>This is a quantitative (number of hotels) not qualitative (prices) due to the lack of easy access to Booking.com data.</li>
+  <li>The number of hotels are not filtered by type of accomodation and include hotels, apartments, villas and other types, again accessing booking source data is needed to filter the type of accomodation</li>
+</ul>
+<h2>Results</h2>
+<h3>Total Number of Hotels Globally</h3>
+<p><img src="/static/img/about/total_graph.png" alt="Total Number of Hotels"></p>
+<h3>Total Number of Hotels by Region</h3>
+<p><img src="/static/img/about/regions_graph.png" alt="World Regions"></p>
+<h3>Top Countries in Booking with more Hotels</h3>
+<p><img src="/static/img/about/cbooking_graph.png" alt="Booking Top 10 Countries"></p>
+<h3>Top Countries in Agoda with more Hotels</h3>
+<p><img src="/static/img/about/cagoda_graph.png" alt="Agoda Top10 Countries"></p>
+<h3>Asia</h3>
+<h4>Taiwan</h4>
+<p><img src="/static/img/about/taiwan_comp.png" alt="Taiwan Hotels"></p>
+<h4>Thailand</h4>
+<p><img src="/static/img/about/thailand_comp.png" alt="Thailand Hotels"></p>
+<h4>China</h4>
+<p><img src="/static/img/about/china_agoda.png" alt="China Agoda Hotels"></p>
+<p><img src="/static/img/about/china_booking.png" alt="China Booking Hotels"></p>
+<h3>Europe</h3>
+<h4>Croatia</h4>
+<p><img src="/static/img/about/croatia.png" alt="Croatia Hotels"></p>
+<h4>Spain</h4>
+<p><img src="/static/img/about/spain.png" alt="Spain Hotels"></p>
+<h2>Results:</h2>
+<ul>
+  <li>Booking has a more significant number of hotels listed globally</li>
+  <li>Booking has more hotels listed in all regions except in Asia</li>
+  <li>The region with most hotels listed in Booking is Europe where the headquarters are localized</li>
+  <li>The region with more hotels listed in Agoda is Asia where the headquarters are localized</li>
+  <li>Created an application to compare Agoda and Booking total number of hotels in any country by cities and plot the results geographically</li>
+</ul>
+<h2>Future Improvements:</h2>
+<ul>
+  <li>Plotting functions need some minor adjustments</li>
+  <li>Geolocation of the cities need to be adjusted with an external service (API)</li>
+  <li>Scrapping method need some minor adjustments to avoid some missing data.</li>
+</ul>
+
+
+

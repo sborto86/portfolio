@@ -1,0 +1,178 @@
+<h2>Objectives of the Project:</h2>
+<p>This project has two main objectives</p>
+<ol>
+<li>Create a complete RestfulAPI with Flask ready to be deployed.</li>
+<li>Test if Sentiment analysis can be used to infer the Political alignment of a newspaper.</li>
+</ol>
+<h2>Data Sources Used:</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Type</th>
+<th>Data extracted</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://open-platform.theguardian.com/">The Guardian</a></td>
+<td>API</td>
+<td>API of News published in the newspaper</td>
+</tr>
+</tbody>
+</table>
+<h2>Python Libraries Used:</h2>
+<table>
+<thead>
+<tr>
+<th>Library</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pandas</td>
+<td>Data Frame manipulation</td>
+</tr>
+<tr>
+<td>Requests</td>
+<td>HTTP Calls</td>
+</tr>
+<tr>
+<td>Datetime</td>
+<td>Classes for manipulating dates and times</td>
+</tr>
+<tr>
+<td>Urllib</td>
+<td>Url encode</td>
+</tr>
+<tr>
+<td>dotenv</td>
+<td>Import tokens</td>
+</tr>
+<tr>
+<td>Os</td>
+<td>Set paths</td>
+</tr>
+<tr>
+<td>Tqdm</td>
+<td>Show progress bar</td>
+</tr>
+<tr>
+<td>Unidecode</td>
+<td>Transform strings to Unicode</td>
+</tr>
+<tr>
+<td>Sqlalchemy</td>
+<td>Connect with MySQL</td>
+</tr>
+<tr>
+<td>Re</td>
+<td>Regex's queries</td>
+</tr>
+<tr>
+<td>Stylecloud</td>
+<td>Generates Wordclouds</td>
+</tr>
+<tr>
+<td>IPython</td>
+<td>Visualize image</td>
+</tr>
+<tr>
+<td>Matplotlib</td>
+<td>Data visualization</td>
+</tr>
+<tr>
+<td>Seaborn</td>
+<td>Data visualization</td>
+</tr>
+<tr>
+<td>TextBlob</td>
+<td>Sentiment Analysis</td>
+</tr>
+<tr>
+<td>NLTK</td>
+<td>Natural Language Toolkit</td>
+</tr>
+<tr>
+<td>Spacy</td>
+<td>Natural Language Processing</td>
+</tr>
+</tbody>
+</table>
+
+<h2>How to use this repository</h2>
+<h3>Requirements:</h3>
+<ol>
+<li>Python version 3.9 (might work in older versions)</li>
+<li>MySQL (might work with other SQL database management systems)</li>
+<li>Python libraries specified before</li>
+</ol>
+<h3>Initial Configuration:</h3>
+<ol>
+<li>Obtain an API token from <a href="https://open-platform.theguardian.com/">The Guardian Website</a></li>
+<li>Create a .env file in the main folder of this repository with this structure:</li>
+</ol>
+<pre><code>THE_GUARDIAN = &lt;API token&gt;
+SQL = &lt;MySQL PASSWORD&gt;
+</code></pre>
+<ol start="3">
+<li>Execute the main.py in the console:</li>
+</ol>
+<pre><code>python main.py
+</code></pre>
+<ol start="4">
+<li>Start sending requests to the API. <a href="https://rawcdn.githack.com/sborto86/project-IV-sentiment-analysis-api/3fee6b4dfc2df19577d4d91acb4fe266feb3bcb5/api-doc.html">Click here for Full documentation</a></li>
+</ol>
+<h2>Database</h2>
+<p>The SQL database schema and tables are created automatically upon the first request.</p>
+<p>Alternatively, fulldatabase.sql file can be executed in MySQL to create the database</p>
+<h3>SQL database schema</h3>
+<img src="/static/img/about/sql-schema.png" alt="SQL Diagram">
+<h2>Results Summary</h2>
+<h3>Initial considerations</h3>
+<ol>
+<li>The following relevant political figures were used to perform this analysis: Liz Truss, Boris Johnson, Rishi Sunak, Keir Starmer, Angela Rayner, King Charles III, Queen Elisabeth II, Volodymyr Zelenskiy, Vladimir Putin, and Xi Jinping.</li>
+<li>The analysis was performed in a two-year window (starting November 2020) using the titles of the news published in The Guardian about each of the political figures mentioned before.</li>
+<li>Only the most representative figures of the analysis have been included in this file, all the figures generated can be found in the <a href="./api-use-example.ipynb">jupyter file</a> and in the <em>img/</em> folder</li>
+</ol>
+<h3>Individual Analysis</h3>
+<p>For each relevant political figure a WordCloud and a Sentiment Score figure were generated, all the figures can be found in the <a href="./api-use-example.ipynb">jupyter file</a> and in the <em>img/</em> folder</p>
+<p>Here are some examples:</p>
+<h4>Queen Elisabeth II Wordcloud</h4>
+<img src="/static/img/about/queen-wordcloud.png" alt="Queen Elisabeth II Wordcloud">
+<h4>Boris Johnson Wordcloud</h4>
+<img src="/static/img/about/johnson-wordcloud.png" alt="Donald Trump Wordcloud">
+<h4>Queen Elsiabeth II Sentiment</h4>
+<img src="/static/img/about/queen-sentiment.png" alt="Queen Elsiabeth II Sentiment">
+<h3>UK Presidents Comparison</h3>
+<img src="/static/img/about/presidents-compound.png" alt="UK Presidents Comparison">
+
+<h4>Conclusions:</h4>
+
+<ol>
+    <li>Volodymyr Zelensky was almost inexistent in the news until the end of 2021 when the tensions with Russia start to escalate</li>
+    <li>Volodymyr Zelensky and Vladimir Putin both have similar negative scores probably due to war news normally being classified as negative sentiment.</li>
+    <li>Joe Biden has a relatively low compound sentiment score compared to other leaders.</li>
+    <li>Surprisingly the leader with a better compound sentiment score over the last 2 years is Xi Jinping. It seems that the biggest difference is observed in the first half of 2021 and might be related to how China implemented effective control of the Covid-19 pandemic.</li>
+</ol>
+
+<h2>Final Conclusions:</h2>
+
+<ol>
+    <li>NLTK compound score seems to work better than TextBlob polarity score</li>
+    <li>As expected for a renowned newspaper such as The Guardian, the overall neutral sentiment score is high and the subjectivity sentiment score is low.</li>
+    <li>The small differences in sentiment scores observed when comparing the leaders from different parties are consistent with the known political alignment of the newspaper (Center-left).</li>
+    <li>It seems that sentiment analysis might be useful to infer the political alignment of a source of news.</li>
+</ol>
+
+<h2>Next Steps:</h2>
+
+<ol>
+    <li>Adding statistical analysis</li>
+    <li>Try to find a better sentiment analysis package</li>
+    <li>Improve plotting functions to get more appealing and informative figures.</li>
+    <li>Improve endpoints and data validation.</li>
+    <li>Improve response error messages and codes</li>
+    <li>Test a more biased source of news</li>
+</ol>

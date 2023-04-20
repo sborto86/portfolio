@@ -1,0 +1,45 @@
+
+{% extends 'base.html' %}
+
+{% block page_content %}
+  <h1>A Simple Keyword Research Tool</h1>
+  {% load static%}
+  <img src="{% static 'img/seo.png' %}" alt="SEO image">
+  <form method="post" action="{% url 'keyword_search' %}" id="keyword-search" class="my-3">
+    {% csrf_token %}
+    <div class="input-group"  style="max-width: 90%; margin:auto;">
+        <label for="keyword" class="visually-hidden">Enter a keyword or short term:</label>
+        <input type="text" id="keyword" name="keyword" class="form-control" placeholder="Enter a keyword or short term">
+        <button type="submit" onclick="submit_loader();" class="btn btn-primary">Search</button>
+    </div>
+</form>
+  {% if error_msg %}
+    <p>{{ error_msg }}</p>
+  {% endif %}
+  {% if success_msg %}
+    <p>{{ success_msg }}</p>
+    <h2>Historical Data</h2>
+    {{ google_fig|safe }}
+    {{ news_fig|safe }}
+    <h2>Prediction Models</h2>
+    <h3>One Year Prediction</h3>
+    {{ one_year_fig|safe }}
+    <h3>Trends and Seasonality</h3>
+    {{ trends_fig|safe }}
+    {% endif %}
+{% endblock %}
+
+{% block header %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js" charset="utf-8"></script>
+{% endblock %}
+{% block scripts %}
+<script>
+    function submit_loader() {
+        const form = document.getElementById('keyword-search');
+        const div = document.createElement("div");
+        div.className="spinner-border text-primary";
+        div.role="status";
+        form.insertAdjacentElement("afterend", div);
+      }
+</script>
+{% endblock %}

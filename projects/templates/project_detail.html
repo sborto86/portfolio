@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+{% block header%}
+{% if project.header_scripts%}
+{{project.header_scripts|safe}}
+{% endif %}
+{% endblock %}
+{% block page_content %}
+<h1>{{ project.title }}</h1>
+<div class="row">
+    <div class="col-md-8">
+        <img src="/{{ project.image }}" alt="{{ project.image.title }}" width="100%">
+    </div>
+    <div class="col-md-4">
+        <h5>About the project:</h5>
+        <p>{{ project.description }}</p>
+        <br>
+        <h5>Technology used:</h5>
+        <p>{{ project.technology }}</p>
+        <h5>Development time:</h5>
+        <p>{{ project.time_q }} {{ project.time_u }}
+        {%if project.github %}
+        <a href="{{project.github}}" target="_blank" rel="noopener noreferrer">
+            <p><img src="/static/img/icons/github.png" style="margin-right: 10px;" width=25 height=25/>Github Repository</p>
+        </a>
+        {% endif %}
+    </div>
+</div>
+<br clear='all'>
+{%if project.descrition_long %}
+{% include project.descrition_long %}
+{% endif %}
+{% endblock %}

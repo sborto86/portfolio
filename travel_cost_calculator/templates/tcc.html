@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block header %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+{% endblock %}
+{% load i18n %}
+{% block page_content %}
+
+
+<!-- HTML form -->
+<form class="tcc-form" id="tcc-formid" method="post" action="">
+  <h2>{{_('Travel Cost Calculator') }}</h2>
+  <div class="tcc-form-body">
+    <input type="email" name="contact_email" id="contact_email" tabindex="-1" autocomplete="off">
+    <div class="tcc-itinerary">
+      <h3>{{ _('Select Your Itinerary') }}</h3>
+      <div class="tcc-itinerary-body">
+        <div class="dropdown tcc-field" id="myDropdown">
+          <ul id="selected-countries"></ul>
+          <label for="tcc-country-input">{{ _('Countries / Regions') }}</label>
+          <input type="search" placeholder="{{ _('Search..') }}" id="tcc-country-input" autocomplete="new-text" />
+          <ul id="country-dropdown">
+            {% for value in tcc_country %}
+              <li data-code="{{ value.code3 }}">{{ value.name }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="tcc-field date">
+          <label for="start-date">{{ _('Start Date') }}</label>
+          <input id="start-date" type="date" min="{{ time_now }}" required>
+        </div>
+        <div id="itinerary">
+          <div id="city_0" class="city-input">
+            <div class="tcc-field city">
+              <label for="cityinput0">{{ _('City') }}</label>
+              <input type="search" inputmode="search" id="cityinput0" list="citylist" autocomplete="new-text" placeholder="{{ _('-- Select --') }}" required pattern="{{ tcc_sdc_city_array|join:'|' }}">
+              <datalist id="citylist">
+                {% for value in tcc_sdc_city_array %}
+                  <option value="{{ value }}"></option>
+                {% endfor %}
+              </datalist>
+            </div>
+            <div class="tcc-field days">
+              <label for="dayscity_0">{{ _('Days') }}</label>
+              <input type="number" inputmode="decimal" id="dayscity_0" min="1" max="14" step="1" placeholder="{{ _('-- Select --') }}" required>
+            </div>
+          </div>
+        </div>
+        <div class="tcc-btn-wrapper">
+          <div class="tcc-btn">
+            <button type="button" class="btn-style" id="add-city">{{ _('Add City') }}</button>
+          </div>
+          <div class="tcc-btn">
+            <button type="button" class="btn-style black" id="remove-city">{{ _('Remove City') }}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tcc-accommodation">
+      <h3>{{ _('Select Your Accommodation') }}</h3>
+      <div class="tcc-accommodation-body">
+        <!-- hotel star -->
+        <div class="tcc-field stars">
+            <label for="hotelstars">{{ _('Hotel Stars') }}</label>
+            <select id="hotelstars">
+              <option value="5">{{ _('★★★★★') }}</option>
+              <option value="4">{{ _('★★★★') }}</option>
+              <option value="3">{{ _('★★★') }}</option>
+              <option value="0">{{ _('★★') }} <span style="color: black;">{{ _('or less') }}</span></option>
+            </select>
+          </div>
+          <!--slider hotel minimum puntuation-->
+          <div class="tcc-field range">
+            <label for="hotel-punt">{{ _('Minimum Hotel Rating') }}</label>
+            <span id="hotel-puntval"></span>
+            <div class="range-wrap">
+              <input type="range" min="0" max="10" value="5" step="0.5" id="hotel-punt">
+              <div class="bar_range_color"><div class="bar_noke"></div></div>
+              <div class="bubble"></div>
+            </div>
+          </div>
+          <!--Adult number-->
+          <div class="tcc-field number">
+            <label for="adult-number">{{ _('Adults') }}</label>
+            <input type="number" inputmode="decimal" id="adult-number" min="1" max="10" value="2">
+          </div>
+          <!--child number-->
+          <div class="tcc-field number">
+            <label for="kid-num">{{ _('Minors') }}</label>
+            <input type="number" inputmode="decimal" id="kid-num" min="0" max="8" value="0">
+          </div>
+          <div class="tcc-field number">
+            <label for="room-num">{{ _('Rooms') }}</label>
+            <input type="number" inputmode="decimal" id="room-num" min="1" max="9" value="1">
+          </div>
+          <div id="kids-age"></div>
+          </div>
+          <div class="other">
+            <h3>{{ _('Other') }}</h3>
+            <div class="tcc-field custom-checkbox checked">
+              <input type="checkbox" id="tcc-vpn">
+              <label for="tcc-vpn" class="checkbox-label">{{ _('Do you want to have access to blocked websites?') }}</label>
+            </div>
+            <div class="tcc-field custom-checkbox">
+              <input type="checkbox" id="insurance">
+              <label for="insurance" class="checkbox-label">{{ _('Do you want a quotation for travel insurance?') }}</label>
+            </div>
+            <div id="insuranceOp"></div>
+          </div>
+          </div>
+          <div class="tcc-terms">
+            <label for="tcc-terms"><input type="checkbox" id="tcc-terms">{{ _('I accept the') }} <a href="" id="tcc-terms-link" onclick="MyWindow=window.open('{% url 'terms' }', 'MyWindow', width=500, height=400); return false;" >{{ _('Terms & Conditions') }}</a> {{ _('of this website.') }}</label>
+            </div>
+          <div class="tcc-btn-wrapper">
+            <button type="button" class="btn-style cal" id="tcc-calculate">{{ _('Calculate Travel Cost') }}</button>
+            <p class="disclaimer">{{ _('Please note that we only provide a summary. If you want to book a hotel, flight or anything else, you will have to do so on the websites of the companies of your choice.') }}</p>
+        </div>
+        </div>
+        </form>
+        <div id="tcc-details"></div>
+        <div id="summary-section" hidden></div>
+        <div id="results-section" hidden></div>
+        {% endblock %}
+        {% block scripts %}
+        <script src="{% static 'js/dinamic_form.js' %}" data-url="{{ app_url }}"></script>
+        <script src="{% static 'js/travel_cost_calculator.js' %}"></script>
+        {% endblock %}

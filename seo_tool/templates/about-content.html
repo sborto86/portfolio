@@ -1,0 +1,158 @@
+{% load static%}
+
+<div class="container">
+    <h1 class="title">About the Project</h1>
+    <img src="{% static 'img/code.png' %}" alt="Code image" class="code-img">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#background">Background</a></li>
+      <li><a href="#objectives">Objectives</a></li>
+      <li><a href="#limitations">Limitations</a></li>
+      <li><a href="#how-it-works">How it works?</a>
+        <ul>
+          <li><a href="#data-acquisition">Data acquisition</a></li>
+          <li><a href="#data-processing">Data Processing</a></li>
+          <li><a href="#creating-standards">Creating standards</a></li>
+          <li><a href="#getting-the-historical-data">Getting the historical data</a></li>
+          <li><a href="#getting-everything-toghether">Getting everything toghether</a></li>
+          <li><a href="#data-storage">Data Storage</a></li>
+          <li><a href="#modeling-and-prediction">Modeling and prediction</a></li>
+        </ul>
+      </li>
+      <li><a href="#future-improvements">Future Improvements</a></li>
+    </ol>
+
+    <h2 class="subtitle" id="background">Background</h2>
+
+    <p>To design a good SEO strategy, access to big amounts of data is essential. However, access to quality data is getting harder and harder.</p>
+
+    <p>At the present moment, SEO tools available are expensive or offer low-quality data.</p>
+
+    <h2 class="subtitle" id="objectives">Objectives</h2>
+
+    <ol>
+        <li>
+            <strong>Proof of concept:</strong> Design a minimum working application for SEO keyword research with a limited time (around a week) and 0 budget.
+        </li>
+        <li>
+            <strong>Easy to deploy application:</strong> Design an application that can be deployed online by anyone with only few commands.
+        </li>
+        <li>
+            <strong>Prove that news can be a good predictor of search behavior abnormalities:</strong> The search behavior of the users is usually predictable and easy to forecast. However, sometimes there are sudden spikes in searches that affect the quality of the prediction models. This project pretends to show that we can combine, data extracted from the news and the historical behavior of the users, to improve the quality of the prediction models.
+        </li>
+    </ol>
+
+    <h2 class="subtitle" id="limitations">Limitations</h2>
+
+    <ol>
+        <li>
+            <strong>News are only extracted from only two sources:</strong> The Guardian and The New York Times
+        </li>
+        <li>
+            <strong>Google search data is global:</strong> Regional data is not available
+        </li>
+        <li>
+            <strong>The application is optimized for English keywords:</strong> Other languages can be used, but the predictions will have a higher degree of inaccuracy.
+        </li>
+        <li>
+            <strong>Low search keywords will not generate results:</strong> The estimated lower limit of detection is about 1,000 - 2,000 searches per day.
+        </li>
+        <li>
+            <strong>Only short keywords are accepted:</strong> Maximum 3 words length are accepted.
+        </li>
+        <li>
+            <strong>The data acquisition might be slow:</strong> 3 - 5 minutes per new keyword.
+        </li>
+        <li>
+            <strong>The historical data is limited to two years:</strong>
+        </li>
+        <li>
+            <strong>Google might block the request:</strong> The acquisition of data requires multiple calls to the google trends website that might trigger the firewall.
+        </li>
+        <li>
+            <strong>Search volume values are estimations:</strong>
+        </li>
+    </ol>
+
+    <h2>How it works?</h2>
+
+<img src="{% static 'img/app-schema.png' %}">
+
+<p><em>A simple schema of the application structure</em></p>
+
+<h3 id="data-acquisition">Data acquisition</h3>
+
+<p>Sources of data used in this application:</p>
+
+<ol>
+  <li>
+    <strong>Google Trends:</strong> Web scrapping using the library pytrends.
+    <br>
+    <img src="{% static 'img/google.png' %}">
+  </li>
+  <li>
+    <strong>The Guardian:</strong> Live API calls.
+    <br>
+    <img src="{% static 'img/guardian.png' %}">
+  </li>
+  <li>
+    <strong>The New York Times:</strong> News archives of the last two years are stored in the database, and the missing data will be updated (if necessary) in every call.
+    <br>
+    <img src="{% static 'img/nyt.png' %}">
+  </li>
+</ol>
+
+<h3 id="data-processing">Data Processing</h3>
+
+<h4>1. Getting Google trends data</h4>
+
+<p>First let's see what Google Trends offers us:</p>
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3140_RC01/embed_loader.js"></script> 
+            <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", 
+            {"comparisonItem":[{"keyword":"youtube","geo":"","time":"2020-01-12 2022-01-12"}],"category":0,"property":""}, 
+            {"exploreQuery":"date=2020-01-12%202022-01-12&q=youtube","guestPath":"https://trends.google.es:443/trends/embed/"});</script>
+ 
+<h4>2. From relative data to absolute data</h4>
+
+<p>To convert from relative to absolute data, the information provided by Semrush (one of the most renowned SEO tools) was used.</p>
+
+<img src="{% static 'img/semrush.png' %}">
+
+<p>You can read the full article by <a href="https://www.semrush.com/blog/most-searched-keywords-google/">clicking here</a>.</p>
+
+<p>The information we get from this article is the average monthly search of the term "youtube" from January through August 2022 (see below):</p>
+
+<img src="{% static 'img/semrush2.png' %}">
+
+<h4>3. Creating standards</h4>
+
+<p>Then with this information, we get an array of keywords from high-volume search keywords to reach the limit of detection of Google Trends:</p>
+ 
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3140_RC01/embed_loader.js"></script> 
+                <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", 
+                {"comparisonItem":[
+                {"keyword":"youtube","geo":"","time":"2022-01-01 2022-08-31"},
+                {"keyword":"food","geo":"","time":"2022-01-01 2022-08-31"},
+                {"keyword":"cheap flights","geo":"","time":"2022-01-01 2022-08-31"},
+                {"keyword":"doctor","geo":"","time":"2022-01-01 2022-08-31"},
+                {"keyword":"dentist","geo":"","time":"2022-01-01 2022-08-31"}
+                ],
+                "category":0,"property":""}, 
+                {"exploreQuery":"date=2022-01-01%202022-08-31&q=youtube,food,doctor,dentist,cheap%20flights","guestPath":"https://trends.google.es:443/trends/embed/"}
+                ); </script>
+
+                <p>Finally, by performing successive pair comparisons we obtain an estimation of the absolute search volume of each keyword:</p>
+    
+                {{ fig1|safe }}
+                    <p>Once these standards are created, we can proceed to extrapolate the absolute volume data of any keyword.</p>
+                    <h4>4. Getting the historical data</h4>
+                    <p>To get the calculated absolute search volume of a new keyword, the following process is going to performed:</p>
+                    <ol>
+                    <li><strong>Find the most similar standard</strong>: By comparing each standard and the keyword in Google Trends we get the standard that have a similar search volume than the keyword.</li>
+                    <li><strong>Convert the relative volume to absolute volume</strong>: We use the standard to extrapolate the keyword search volume.</li>
+                    <li><strong>Retrieve the historical data</strong>: Once we have the search volume from the window of the standards (January to August 2022), we get the last two years historical data for the keyword from Google Trends (relative data).</li>
+                    <li><strong>Obtain the absolute historical data</strong>: Finally we use the absolute data obtained in the second step to calculate the historical data.</li>
+                    </ol>
+                    <p>For example if search for "pizza" we get the following result:</p>
+                {{ fig2|safe }}
+</div>

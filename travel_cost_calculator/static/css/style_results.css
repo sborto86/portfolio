@@ -1,0 +1,1120 @@
+/*************** SUMMARY CSS *****************/
+#summary-section {
+  width: 100%;
+  box-shadow: none;
+  border: 1px solid #e3e3e3;
+  background: #fafafa;
+  border-radius: 3px;
+  margin: 30px auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+	font-weight: 400;
+	font-size: 16px;
+  letter-spacing: 1px;
+	line-height: 1.3;
+}
+#summary-section h2 {
+  font-size: 26px;
+  line-height: 16px;
+  color: #272727;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  display: block;
+  padding: 20px 0 40px 0;
+  letter-spacing: 1px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.summary-section-wrapper {
+    background: #fff;
+    margin: 0 20px;
+    padding: 0 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+}
+
+ .summary-heading, .city-summary, .quote-summary, .country-summary, .itinerary-summary {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 15px 0px 15px 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.summary-section .title {
+    color: #424242;
+    padding: 0 20px;
+    width: 40%
+}
+
+.summary-section .summary-heading .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.summary-section .total-amount, .summary-section .amount {
+  min-width: 65px;
+  text-align: right;
+  width: 6%;
+}
+
+.summary-section .total-amount, .summary-heading .currency {
+  font-weight: 700;
+}
+
+.summary-section .currency {
+  text-align: center;
+  min-width: 40px;
+}
+
+.summary-heading {
+    margin-top: 15px;
+}
+
+.summary-section .int-link {
+    font-size: 14px;
+    width: 15%;
+    margin-left: 1.5%;
+}
+
+.summary-section .int-link a {
+    color: #f96e5b;
+    text-align: center;
+    text-decoration: none;
+}
+
+.summary-section .int-link img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.summary-section .book-link {
+    width: 20%;
+    text-align: center;
+    max-width: 200px;
+    margin-left: auto;
+}
+
+.summary-section .book-link a {
+    background: #333333;
+    border: 2px solid #333333;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.summary-section .book-link a:hover {
+  background: #000;
+}
+
+.summary-section .summry_total_inner {
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  padding: 25px 0 25px 20px;
+}
+
+.summary-section .summry_total_inner .currency{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.summary-section .summry_total_inner .summary-description {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.summary-section .button-div, #results-section .button-div{
+  text-align: center;
+  padding: 60px 0 20px 0;
+}
+
+.summary-section .button-div button, #results-section .button-div button {
+    border: none;
+    cursor: pointer;
+    background: #ff8846ad;
+    text-transform: uppercase;
+    background-color: #f96e5b;
+    box-shadow: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+    height: auto;
+    border-radius: 3px;
+    padding: 15px;
+    transition: .2s;
+}
+
+.summary-section .button-div button:hover, #results-section .button-div button:hover{
+  background: #f3543f;
+  color: white;
+  text-decoration: none;
+  transform: scale(1.02);
+}
+
+#quote-button {
+   background: #333;
+}
+
+#quote-button:hover {
+   background: #000;
+}
+
+#results-button, #final-button {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+/***** POPUP CSS ******/
+.tcc-popup {
+  display: none;
+  position: fixed;
+  z-index: 999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: lightgray;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.tcc-popup .popup-dialog {
+    padding: 0 15px;
+    border: 0;
+    border-radius: 5px;
+    max-width: 600px;
+    width: 100%;
+    z-index: 999;
+    margin: 3rem auto;
+}
+
+.tcc-popup .popup-box {
+    padding-bottom: 30px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+}
+
+.tcc-popup .popup-box h3 {
+  background-color: #f96e5b;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tcc-popup .tcc-close {
+  position: absolute;
+  font-weight: bold;
+  top: -15px;
+  right: -15px;
+  background-color: #fff;
+  color: #f96e5b;
+  border-radius: 44px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 30px;
+}
+
+.tcc-popup .tcc-close:hover,
+.tcc-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tcc-popup button.tcc-button {
+  display:block;
+  margin: 40px auto 0;
+  max-width: 380px;
+}
+
+.tcc-popup button.tcc-button:disabled{
+	cursor: not-allowed;
+	background-color: #ff8846a3;
+	border:#ff8846ad;
+}
+.tcc-popup button.tcc-button:disabled:hover{
+	background-color: #ff8846a3;
+	transform: none;
+}
+
+.popup-box input {
+    font-weight: 400;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 90%;
+    margin: 0 auto;
+    box-shadow: none;
+    height: auto;
+    padding: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    color: #7e7e7e;
+    border: 1px solid #e3e3e3;
+}
+.popup-box label {
+    display: block;
+    margin: 15px auto 0 auto;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 40px 30px 10px 30px;
+}
+
+div#quote-element h3 {
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+}
+
+div#quote-element .popup-box label {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+div#quote-element .popup-box button.tcc-button {
+    margin-top: 50px;
+}
+
+.tcc-message {
+    text-align: center;
+    margin-top: 15px;
+    background-color: rgba(249, 110, 91, 0.4);
+    font-weight: 400;
+}
+
+/*************** RESULTS CSS *****************/
+
+#results-section {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 20px 1px #eee;
+  box-sizing: border-box;
+  margin: 10px auto;
+  max-width: 100%;
+}
+
+.result-section {
+    box-shadow: 0 0 20px 1px #eee;
+    border-radius: 3px;
+	margin: 0;
+}
+
+.result-section .heading {
+	vertical-align: middle;
+	margin-bottom: 15px;
+    border: 0;
+    box-shadow: 0 0 20px 1px #eeeeee;
+    padding: 15px 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.result-section .heading:before {
+    margin-right: 10px;
+    font-size: 20px;
+    content: '+';
+    background-color: #f96e5b;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.result-section .heading.listener.active:before {
+	content: '-';
+}
+
+.heading .title {
+    text-align: left;
+}
+
+.heading .amount, .heading .total-amount, .total-cost {
+    text-align: right;
+	margin-left: auto;
+	padding-right: 10px;
+}
+
+.heading .total-amount, .heading .currency {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.heading .currency {
+    text-align: right;
+    min-width: 30px;
+}
+
+.heading a.heading-link {
+    box-shadow: none;
+    font-weight: 400;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: auto;
+    transition: .3s;
+    background: #333;
+    border: 2px solid #333;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    max-width: 400px;
+    margin: 0 auto;
+	text-decoration: none;
+	display: block;
+}
+
+.heading a.heading-link:hover {
+background: #23282d;
+border-color: #23282d;
+}
+
+.result-data {
+  margin-left: 25px;
+	margin-right: 25px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow: auto;
+}
+
+.result-data .heading {
+  border-bottom: 1px dotted #bbb;
+	font-size: 16px;
+}
+
+.result-data .heading + div {
+  box-shadow: 0 0 20px 1px #eeeeee;
+  margin: 0 20px 40px;
+  overflow: auto;
+}
+
+.result-data table {
+	width: 100%;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-data td {
+		padding: 5px;
+    border: 0;
+    text-align: left;
+}
+
+.result-data tr {
+    border-bottom: 1px solid #e3e3e3;
+    margin: 0 10px;
+}
+
+.result-data table tr.active_product {
+    background-color: #f6f6f6;
+}
+
+.result-data span {
+    display: inline-block;
+}
+
+.result-data .radio label {
+  font-size: 0;
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+  transform: translateY(-12px);
+  display: block;
+}
+
+.result-data .radio label:before {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 5px 0 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: 2px solid #f96e5b;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.result-data .radio input {
+  display: none;
+}
+
+.result-data .radio input:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  content: " ";
+  display: block;
+  background: #f96e5b;
+}
+
+.result-data .name {
+	font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    max-width: 260px;
+    padding-bottom: 0;
+ }
+
+.result-data .book-link {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.result-data .book-link a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background: #333;
+    border: 2px solid #333;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    box-shadow: none;
+	}
+
+.book-link a:hover {
+		background: #000;
+}
+
+.result-data a.final-link {
+	display: block;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 30px;
+  padding: 10px;
+  text-transform: uppercase;
+  max-width: 550px;
+  margin: 20px auto;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 450;
+  text-align: center;
+	text-decoration: none;
+}
+
+.result-data a.final-link:hover {
+	background: #f96e5b;
+  transform: scale(1.02);
+}
+
+.result-data .photo {
+  min-width: 150px;
+  width: 75px;
+  height: 150px;
+  padding: 15px 15px 5px 15px;
+}
+
+.result-data .photo img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.result-data .stars {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 0;
+}
+.result-data .score {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #424242;
+  font-weight: bold;
+}
+.result-data .score p {
+    margin: 0;
+}
+
+.result-data .price {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #424242;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result-data .insurance {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.result-data .insurance .name, .result-data .insurance .price {
+  padding: 0 25px;
+}
+
+.itinerary-results .transport {
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+}
+
+.itinerary-results .transport td {
+    flex: 1;
+    font-size: 16px
+}
+
+.itinerary-results .transport .radio {
+    max-width: 50px;
+}
+.itinerary-results .transport .service {
+    max-width: 130px;
+    transform: translateY(1px);
+    font-size: 12px;
+}
+.itinerary-results .transport .service img {
+    width: 50px;
+    height: 50px;
+}
+
+.itinerary-results .transport .transport-type {
+    max-width: 100px;
+    text-align: center;
+}
+
+.itinerary-results .transport .transport-type img {
+    width: 30px;
+    height: auto;
+    transform: translateY(6px);
+}
+
+.itinerary-results .transport .duration {
+  font-weight: 400;
+}
+
+.itinerary-results .transport .prices span {
+    text-align: center;
+    font-size: 14px;
+}
+
+.itinerary-results .transport .prices span:first-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.result-data .vpn {
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+}
+
+.result-data .vpn td {
+    flex: 1;
+}
+
+.result-data .vpn .name {
+    padding-top: 0;
+}
+.result-data .vpn .radio {
+    max-width: 100px;
+}
+.result-data .vpn .logo {
+    max-width: 150px;
+}
+.result-data .vpn .link {
+    text-align: right;
+}
+.result-data .vpn .link a {
+    background: #333;
+    border: 2px solid #333;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    box-shadow: none;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    max-width: 250px;
+    margin-left: auto;
+}
+.result-data .vpn .price {
+    max-width: 150px;
+}
+
+#result-total {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 20px;
+  border: 0;
+  background: #f6f6f6;
+  border-bottom: 2px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+}
+.result-data .food td {
+  padding: 15px 5px;
+}
+.result-data .food .cost {
+  min-width: 110px;
+}
+
+.result-data .food-drink {
+    text-align: left;
+}
+
+#result-total span.title {
+    font-size: 20px;
+}
+
+#result-total .total-cost, #result-total .currency {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #424242;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/***** RESPOSIVE CSS ******/
+
+@media only screen and (min-width: 1400px) {
+  .tcc-popup .popup-box .tcc-close {
+      line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 1140px) {
+  /*Summary Section*/
+  #summary-section {
+  font-size: 14px;
+  }
+
+  .summary-section .title {
+    width: 33%;
+  }
+
+  .summary-section .summary-heading .title {
+    font-size: 16px;
+  }
+
+  .summary-section .int-link a {
+    font-size: 14px;
+  }
+  .summary-section .total-amount, .summary-section .amount {
+    min-width: 58px;
+  }
+  .summary-section .book-link {
+    width: 33%;
+  }
+
+  .summary-section .book-link a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  .tcc-popup .popup-dialog {
+      margin: 10rem auto;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  /*Summary Section*/
+  .summary-section .int-link a {
+  position:relative;
+  display: block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #f96e5b;
+  }
+
+  .summary-section .int-link a:hover {
+  background-color: #333333;
+  }
+
+  .summary-heading, .city-summary, .quote-summary, .country-summary, .itinerary-summary {
+    padding: 10px 0px 10px 10px;
+  }
+
+  .tcc-popup .popup-box h3 {
+      font-size: 16px;
+      padding: 15px;
+  }
+
+  .tcc-popup .popup-box {
+    padding-bottom: 20px;
+  }
+
+  .popup-box button.tcc-button {
+      font-size: 13px;
+      max-width: 250px;
+      padding: 10px 5px;
+  }
+
+  .tcc-close {
+      width: 20px;
+      height: 20px;
+      font-size: 16px;
+      top: -5px;
+      right: -5px;
+  }
+  /* Results section */
+
+  #results-section .heading-link {
+    display: none;
+  }
+
+  .itinerary-results table, .city-results table {
+    box-shadow: none;
+  }
+
+  .result-data {
+		margin: 0 15px;
+    overflow: unset;
+	}
+
+  .result-data .heading + div {
+    margin: 0 0 40px;
+  }
+
+  .result-data .hotel {
+    display: inline-grid;
+    grid-template-columns: 30px 150px auto 50%;
+    grid-template-rows: 100px 50px auto 50px;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .result-data tr {
+    margin: 0;
+  }
+  .hotel .radio {
+    grid-area: 1 / 1 / 3 / 2;
+    align-self: center;
+  }
+  .hotel .photo {
+    padding: 10px 5px;
+    grid-area: 1 / 2 / 3 / 3;
+  }
+  .hotel .name {
+    max-width: 100%;
+    grid-area: 1 / 3 / 2 / 5;
+  }
+
+  .hotel .stars {
+    font-size: 16px;
+    grid-area: 2 / 3 / 2 / 5;
+  }
+
+  .hotel .score {
+    font-size: 16px;
+    grid-area: 3 / 2 / 5 / 4;
+  }
+  .hotel .price {
+    font-size: 16px;
+    grid-area: 3 / 4 / 4 / 5;
+    text-align: right;
+  }
+  .hotel .book-link {
+    grid-area: 4 / 4 / 5 / 5;
+  }
+  .result-data .book-link a {
+      padding: 5px 7px;
+      font-size: 12px;
+  }
+  .transport .service {
+  max-width: 90px;
+  }
+  .transport .transport-type {
+    max-width: 75px;
+  }
+
+  .result-data .vpn .logo {
+    max-width: 100px;
+  }
+  .result-data .vpn .logo img{
+    margin:auto;
+  }
+  .result-data .vpn .radio {
+    max-width: 35px;
+  }
+.result-data .vpn .link a {
+  font-size: 12px;
+  padding: 5px;
+}
+
+
+  #total-summary .button-div button {
+      font-size: 16px;
+      letter-spacing: 1px;
+  }
+
+  #quote-element .popup-box button.tcc-button {
+      margin-top: 20px;
+  }
+  #quote-element .popup-box label {
+      margin-top: 10px;
+  }
+  #quote-element h3 {
+      margin-bottom: 20px;
+  }
+  .popup-box label {
+      margin: 0px 18px 5px 18px;
+  }
+
+  #results-element h3 {
+      margin-bottom: 20px;
+  }
+  #summary-section h2 {
+      font-size: 20px;
+      padding-bottom: 30px;
+  }
+
+  #total-summary {
+      font-size: 20px;
+  }
+
+  .tcc-close {
+       line-height: 1;
+  }
+
+  #results-button {
+      margin-right: 0;
+  }
+  #results-section .heading span.title {
+      margin-right: 20px;
+  }
+  .tcc-popup .popup-dialog {
+      margin: 2rem auto;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .summary-section-wrapper {
+    margin: 0 10px;
+    padding: 0 10px;
+  }
+  .result-data {
+    margin: 0 0 10px 0;
+    box-shadow: 0 0 20px 1px #eeeeee
+  }
+
+  .result-data table {
+    border: none;
+  }
+
+  .result-data tr {
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 0 20px 1px #eeeeee;
+    border-radius: 20px;
+  }
+
+  .city-results .heading {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .summary-section {
+    font-size: 12px;
+  }
+
+  .summary-heading {
+    font-size: 14px;
+  }
+  .summary-section .summary-heading .title {
+    font-size: 14px
+  }
+  .summary-heading, .city-summary, .quote-summary, .country-summary, .itinerary-summary {
+    padding: 5px 0px 5px 5px;
+  }
+  .summary-section .title {
+    padding: 0 5px
+  }
+  .summary-section .int-link {
+    width: 30px;
+    margin:0 1.5%
+  }
+  .summary-section .summry_total_inner .summary-description {
+    font-size: 12px;
+}
+.summary-section .button-div {
+  padding: 20px 0
+}
+.summary-section .book-link a {
+  font-size: 10px;
+  padding: 8px 5px;
+}
+/*** Results Section ***/
+.itinerary-results .transport {
+  display: grid;
+  grid-template-columns: 35px 75px 55px auto;
+  grid-template-rows: auto auto auto;
+}
+.itinerary-results .transport .radio {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.transport .service {
+    grid-area: 1 / 2 / 2 / 3;
+    margin:auto;
+}
+.transport .transport-type {
+    grid-area: 1 / 3 / 2 / 4;
+    margin:auto;
+}
+.transport .duration {
+    grid-area: 2 / 1 / 3 / 5;
+}
+.transport .prices {
+    grid-area: 3 / 1 / 4 / 5;
+}
+.result-data .vpn {
+  display: grid;
+  grid-template-columns: 50px auto auto auto;
+  grid-template-rows: 75px 75px;
+  margin: 0 10px 10px;
+}
+.result-data .vpn .radio {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.result-data .vpn .price {
+  text-align: left;
+}
+.result-data .vpn .link {
+  grid-area: 2 / 1 / 3 / 5;
+  margin: auto;
+}
+.result-data .vpn .link a {
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.result-data .food {
+  font-size: 16px
+}
+
+.result-data .insurance .name, .result-data .insurance .price {
+    padding: 0px 5px;
+    font-size: 16px;
+}
+.insurance .book-link {
+  min-width: 156px;
+}
+.result-data a.final-link {
+    font-size: 14px;
+    letter-spacing: normal;
+    max-width: 90%;
+}
+}
+@media only screen and (max-width: 480px) {
+  #summary-section {
+    letter-spacing: 0.3px;
+  }
+  .summary-section .title {
+    width: 25%;
+    min-width: 102px;
+}
+  .book-link a {
+    font-size: 10px;
+  }
+  #total-summary {
+      font-size: 24px;
+    }
+  #total-summary button {
+    font-size: 12px;
+  }
+
+  .summary-section .int-link {
+      font-size: 12px;
+  }
+  .summary-section .book-link {
+      width: 100px;
+    }
+    .hotel .score {
+      font-size: 14px;
+    }
+    .hotel .price {
+      text-align: center;
+    }
+    .hotel .book-link {
+      text-align: center;
+    }
+    .insurance .book-link {
+      min-width: 100px;
+    }
+}
