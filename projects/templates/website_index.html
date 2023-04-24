@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<h1>Websites</h1>
+<div class="row">
+{% for website in websites %}
+    <div class="col-md-4">
+        <div class="card mb-2">
+            <img class="card-img-top" src="/{{ website.image }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ website.title }}</h5>
+                <p class="card-text">{{ website.description }}</p>
+                <a href="{% url 'website_detail' website.slug %}"
+                   class="btn btn-primary">
+                    Read More
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

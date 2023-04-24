@@ -86,7 +86,9 @@ def get_google(keyword):
         df = dailydata.get_daily_data(keyword, int(dfr.year), int(dfr.month), int(dto.year),int(dto.month))
         df = df[[keyword]]
     except ResponseError:
-        return "Google has bloqued your request imposible to retrive the historical data, try it again after some minutes"
+        return "Google has blocked your request imposible to retrive the historical data, try it again after some minutes"
+    except KeyError:
+        return "Google has blocked your request imposible to retrive the historical data, try it again after some minutes"
     # getting estimated search value
     standard = find_standard(keyword)
     if df[keyword][standard['date']] == 0:

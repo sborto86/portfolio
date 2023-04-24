@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<h1>{{ website.title }}</h1>
+<div class="row">
+    <div class="col-md-8">
+        <img src="/{{ website.image }}" alt="{{ website.title }}" width="100%">
+    </div>
+    <div class="col-md-4">
+        <h5>About the Website:</h5>
+        <p>{{ website.long_description }}</p>
+        <br>
+        <h5>Technology used:</h5>
+        <p>{{ website.technology }}</p>
+        <a href="{{website.url}}" target="_blank" rel="noopener noreferrer">
+            <p><img src="/static/img/icons/link.png" style="margin-right: 10px;" width=25 height=25/>Go to the {{ website.title }} website</p>
+        </a>
+        
+    </div>
+</div>
+<br clear='all'>
+{% endblock %}
