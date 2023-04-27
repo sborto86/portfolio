@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-jd3d%1fym=hcw-g4ua++ah7&lde+p*+_-l#cq&$+c51(-a^5$i
 DEBUG = False
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(' ')
-CSRF_TRUSTED_ORIGINS = config('CSRF_TRUSTED_ORIGINS').split(' ')
+#CSRF_TRUSTED_ORIGINS = config('CSRF_TRUSTED_ORIGINS').split(' ')
 
 # Application definition
 
