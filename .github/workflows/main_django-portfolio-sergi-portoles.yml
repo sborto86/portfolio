@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'django-portfolio-sergi-portoles'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9CE768DCCD534CD589EABBAF8B3A85EB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4A81D17C4735488398D17817C510017A }}
