@@ -21,10 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-jd3d%1fym=hcw-g4ua++ah7&lde+p*+_-l#cq&$+c51(-a^5$i'
-
+#SECRET_KEY = 'django-insecure-jd3d%1fym=hcw-g4ua++ah7&lde+p*+_-l#cq&$+c51(-a^5$i'
+SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(' ')
 #CSRF_TRUSTED_ORIGINS = config('CSRF_TRUSTED_ORIGINS').split(' ')
@@ -87,7 +87,7 @@ DATABASES = {
         'HOST': config("AZURESQLHOST"),
         'PORT': config("AZURESQLPORT"),
         'OPTIONS': {
-            'ssl': {'ca': config("CERTPATH")}
+            'ssl': {'ca': BASE_DIR / 'DigiCertGlobalRootCA.crt.pem'}
         }
     },
     'sqllite': {
@@ -95,7 +95,6 @@ DATABASES = {
     'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
