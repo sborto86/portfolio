@@ -27,7 +27,7 @@ SECRET_KEY = config("SECRET_KEY")
 DEBUG = False
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(' ')
-CSRF_TRUSTED_ORIGINS = ["https://"+ config("HOSTNAME")]
+#CSRF_TRUSTED_ORIGINS = ["https://"+ config("HOSTNAME")]
 
 # Application definition
 
